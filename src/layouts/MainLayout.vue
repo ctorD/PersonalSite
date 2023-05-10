@@ -10,6 +10,15 @@
 
     <q-drawer show-if-above v-model="leftDrawerOpen" side="left" bordered>
       <!-- drawer content -->
+      <div class="bg-grey-3 column q-pa-sm items-center justify-center">
+        <div class="text-h6">Daniel Clarke</div>
+        <div class="text-subtitle1">Software Developer</div>
+        <div class="row no-wrap">
+          <q-btn icon="fa-brands fa-linkedin-in" flat size="sm"></q-btn>
+          <q-btn icon="fa-brands fa-github" flat size="sm"></q-btn>
+        </div>
+      </div>
+      <q-separator></q-separator>
       <q-list>
         <q-item clickable v-ripple>
           <q-item-section avatar>

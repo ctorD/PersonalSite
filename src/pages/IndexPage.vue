@@ -1,17 +1,28 @@
 <template>
-  <q-page class="row items-start justify-evenly">
-    <project-list></project-list>
+  <q-page>
+    <div class="q-pa-sm row items-stretch content-stretch q-col-gutter-sm">
+      <div class="col-sm-12">
+        <q-card class="row">
+          <project-list></project-list>
+        </q-card>
+      </div>
+      <!-- <div class="col-12">
+        <project-list></project-list>
+      </div> -->
+    </div>
   </q-page>
 </template>
 
 <script lang="ts">
 import { Todo, Meta } from 'components/models';
 import { defineComponent, ref } from 'vue';
+import LanguageList from 'src/components/LanguageList.vue';
 import ProjectList from 'src/components/ProjectList.vue';
 
 export default defineComponent({
   name: 'IndexPage',
-  components: { ProjectList },
+  // eslint-disable-next-line vue/no-unused-components
+  components: { LanguageList, ProjectList },
   setup() {
     const todos = ref<Todo[]>([
       {
@@ -42,3 +53,11 @@ export default defineComponent({
   },
 });
 </script>
+
+<style lang="sass">
+.example-col-gutter-size
+  .my-content
+    padding: 10px 15px
+    background: rgba(#999,.15)
+    border: 1px solid rgba(#999,.2)
+</style>

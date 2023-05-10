@@ -110,13 +110,6 @@ export default defineComponent({
       return icons;
     }
 
-    function createGitButton() {
-      if (props.project.gitUrl) {
-        //One Git
-      } else {
-      }
-    }
-
     return { icons };
   },
 });

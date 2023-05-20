@@ -1,15 +1,66 @@
 <template>
-  <q-page>
-    <div class="q-pa-sm row items-stretch content-stretch q-col-gutter-sm">
-      <div class="col-sm-12">
-        <q-card class="row">
-          <project-list></project-list>
-        </q-card>
-      </div>
-      <!-- <div class="col-12">
+  <q-page
+    class="q-pa-lg row justify-evenly items-start content-start q-col-gutter-md"
+  >
+    <!-- <div class="bg-grey-3 column q-pa-sm items-center justify-center">
+        <div class="text-h6">Daniel Clarke</div>
+        <div class="text-subtitle1">Software Developer</div>
+        <div class="row no-wrap">
+          <q-btn
+            icon="fa-solid fa-envelope"
+            href="mailto: abc@example.com"
+            flat
+            size="sm"
+          ></q-btn>
+          <q-btn icon="fa-brands fa-linkedin-in" flat size="sm"></q-btn>
+          <q-btn icon="fa-brands fa-github" flat size="sm"></q-btn>
+        </div>
+      </div> -->
+    <div class="col-sm-12 col-md-6">
+      <q-card class="row">
+        <div class="full-width column q-pa-sm items-center justify-center">
+          <div class="text-h6">Daniel Clarke</div>
+          <div class="text-subtitle1">Software Developer</div>
+          <div class="row no-wrap">
+            <q-btn
+              icon="fa-solid fa-envelope"
+              href="mailto: abc@example.com"
+              flat
+              size="sm"
+            ></q-btn>
+            <q-btn icon="fa-brands fa-linkedin-in" flat size="sm"></q-btn>
+            <q-btn icon="fa-brands fa-github" flat size="sm"></q-btn>
+          </div>
+        </div>
+      </q-card>
+    </div>
+    <div class="col-sm-12 col-md-6">
+      <q-card class="row">
+        <div class="full-width column q-pa-sm items-center justify-center">
+          <div class="text-h6">Languages</div>
+          <q-separator></q-separator>
+          <div class="text-subtitle1">Software Developer</div>
+          <div class="row no-wrap">
+            <q-btn
+              icon="fa-solid fa-envelope"
+              href="mailto: abc@example.com"
+              flat
+              size="sm"
+            ></q-btn>
+            <q-btn icon="fa-brands fa-linkedin-in" flat size="sm"></q-btn>
+            <q-btn icon="fa-brands fa-github" flat size="sm"></q-btn>
+          </div>
+        </div>
+      </q-card>
+    </div>
+    <div class="col-sm-12" style="height: 100%">
+      <q-card class="row">
+        <project-list></project-list>
+      </q-card>
+    </div>
+    <!-- <div class="col-12">
         <project-list></project-list>
       </div> -->
-    </div>
   </q-page>
 </template>
 

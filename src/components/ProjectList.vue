@@ -1,5 +1,5 @@
 <template>
-  <div class="col items-start justify-start">
+  <div class="col q-pa-sm items-start justify-start">
     <div class="text-h6 text-center">Projects</div>
     <q-separator color="" />
     <div class="row no-wrap" style="height: 600px">

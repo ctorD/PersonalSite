@@ -5,13 +5,14 @@
       <q-space />
       <div>
         <q-btn
+          target="”_blank”"
+          :href="project.gitUrl"
           v-if="project.gitUrl != undefined"
           icon="fa-brands fa-github"
           flat
         />
         <q-btn-dropdown
           v-if="project.gitFrontEndUrl != undefined"
-          dense
           icon="fa-brands fa-github"
           flat
         >

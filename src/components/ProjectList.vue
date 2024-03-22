@@ -40,7 +40,7 @@ export default defineComponent({
         id: 0,
         langs: ['CSHARP', 'TS'],
         title: 'Code Racer',
-        url: undefined,
+        url: 'https://coderacer.5645645.xyz/',
         gitUrl: undefined,
         gitFrontEndUrl: 'https://github.com/ctorD/CodeRacerClient',
         gitBackEndUrl: 'https://github.com/ctorD/CodeRacerBackend',

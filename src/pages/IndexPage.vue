@@ -2,21 +2,7 @@
   <q-page
     class="q-pa-lg row justify-evenly items-start content-start q-col-gutter-md"
   >
-    <!-- <div class="bg-grey-3 column q-pa-sm items-center justify-center">
-        <div class="text-h6">Daniel Clarke</div>
-        <div class="text-subtitle1">Software Developer</div>
-        <div class="row no-wrap">
-          <q-btn
-            icon="fa-solid fa-envelope"
-            href="mailto: abc@example.com"
-            flat
-            size="sm"
-          ></q-btn>
-          <q-btn icon="fa-brands fa-linkedin-in" flat size="sm"></q-btn>
-          <q-btn icon="fa-brands fa-github" flat size="sm"></q-btn>
-        </div>
-      </div> -->
-    <div class="col-sm-12 col-md-6">
+    <div class="col-xs-12 col-sm-12 col-md-6">
       <q-card class="row">
         <div class="full-width column q-pa-sm items-center justify-center">
           <div class="text-h6">Daniel Clarke</div>
@@ -29,12 +15,17 @@
               size="sm"
             ></q-btn>
             <q-btn icon="fa-brands fa-linkedin-in" flat size="sm"></q-btn>
-            <q-btn icon="fa-brands fa-github" flat size="sm"></q-btn>
+            <q-btn
+              icon="fa-brands fa-github"
+              flat
+              size="sm"
+              href="https://github.com/ctorD"
+            ></q-btn>
           </div>
         </div>
       </q-card>
     </div>
-    <div class="col-sm-12 col-md-6">
+    <div class="col-xs-12 col-sm-12 col-md-6">
       <q-card class="row">
         <div class="full-width column q-pa-sm items-center justify-center">
           <div class="text-h6">Languages</div>
@@ -48,7 +39,12 @@
               size="sm"
             ></q-btn>
             <q-btn icon="fa-brands fa-linkedin-in" flat size="sm"></q-btn>
-            <q-btn icon="fa-brands fa-github" flat size="sm"></q-btn>
+            <q-btn
+              href="https://github.com/ctorD"
+              icon="fa-brands fa-github"
+              flat
+              size="sm"
+            ></q-btn>
           </div>
         </div>
       </q-card>
@@ -58,9 +54,6 @@
         <project-list></project-list>
       </q-card>
     </div>
-    <!-- <div class="col-12">
-        <project-list></project-list>
-      </div> -->
   </q-page>
 </template>
 

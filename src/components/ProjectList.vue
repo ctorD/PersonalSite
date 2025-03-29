@@ -45,7 +45,7 @@ export default defineComponent({
         gitFrontEndUrl: 'https://github.com/ctorD/CodeRacerClient',
         gitBackEndUrl: 'https://github.com/ctorD/CodeRacerBackend',
         description:
-          'A multiplayer code snippet writing game using websockets. Snippets sourced using the GitHub API.',
+          'A fast-paced multiplayer coding game where players compete to accurately write code snippets in real time. Created using WebSockets for realtime data, with code snippets sourced from the GitHub API.',
       },
       {
         id: 2,
@@ -56,7 +56,7 @@ export default defineComponent({
         gitFrontEndUrl: 'PRIVATE',
         gitBackEndUrl: 'https://github.com/ctorD/WorldTimeApi',
         description:
-          'Need to set the daylight saving time settings on your casio watch? Get the current daylight saving times settings for you casio watch.',
+          'Easily configure daylight saving time settings for your Casio watch. Casio Sync provides up-to-date DST data, ensuring your watch stays accurate with the latest time zone adjustments.',
       },
     ];
 

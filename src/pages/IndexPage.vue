@@ -1,6 +1,6 @@
 <template>
-  <q-page class="row" padding>
-    <q-card class="col-12 q-mb-sm items-center justify-center text-center">
+  <q-page class="items-start items-start" padding>
+    <q-card class="col-12 q-mb-sm items-center text-center justify-center">
       <div class="text-h6">Daniel Clarke</div>
       <div class="text-subtitle1">Software Developer</div>
       <div class="row no-wrap items-center justify-center">
@@ -20,7 +20,7 @@
       </div>
     </q-card>
 
-    <div class="col-12" style="height: 100%">
+    <div class="col-12">
       <q-card class="row">
         <project-list></project-list>
       </q-card>

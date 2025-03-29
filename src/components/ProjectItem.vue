@@ -23,6 +23,7 @@
               dense
               clickable
               v-close-popup
+              :disable="project.gitFrontEndUrl == 'PRIVATE'"
               v-if="project.gitFrontEndUrl"
             >
               <q-item-section avatar>

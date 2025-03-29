@@ -1,6 +1,6 @@
 <template>
   <q-layout view="hHh lpR fFf">
-    <q-header class="bg-primary text-white">
+    <!-- <q-header class="bg-primary text-white">
       <q-toolbar class="row items-center justify-center q-gutter-lg">
         <q-btn
           flat
@@ -21,7 +21,7 @@
           @click="toggleLeftDrawer"
         />
       </q-toolbar>
-    </q-header>
+    </q-header> -->
 
     <q-page-container class="bg-grey-4">
       <router-view />

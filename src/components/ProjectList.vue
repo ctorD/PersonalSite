@@ -10,7 +10,7 @@
       ></LanguageList>
       <q-separator vertical color="" />
       <q-scroll-area style="height: 100%; width: 100%">
-        <div class="row justify-start items-center">
+        <div class="row justify-start items-start">
           <div
             class="col-xs-12 col-sm-6 col-lg-4"
             v-for="project in filteredProjects"
@@ -38,36 +38,25 @@ export default defineComponent({
     const projects: Project[] = [
       {
         id: 0,
-        langs: ['CSHARP', 'TS'],
+        langs: ['VUE', 'CSHARP', 'TS'],
         title: 'Code Racer',
         url: 'https://coderacer.5645645.xyz/',
         gitUrl: undefined,
         gitFrontEndUrl: 'https://github.com/ctorD/CodeRacerClient',
         gitBackEndUrl: 'https://github.com/ctorD/CodeRacerBackend',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nihil atque distinctio! Delectus minima eligendi quasi excepturi cumque esse id ea non molestias perferendis reprehenderit cupiditate dicta, fuga nisi itaque?',
+          'A multiplayer code snippet writing game using websockets. Snippets sourced using the GitHub API.',
       },
       {
-        id: 1,
-        langs: ['VUE', 'TS'],
-        title: 'Flow Time',
-        url: 'https://google.com',
-        gitUrl: 'https://github.com/ctorD/FlowTime',
-        gitFrontEndUrl: undefined,
-        gitBackEndUrl: undefined,
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nihil atque distinctio! Delectus minima eligendi quasi excepturi cumque esse id ea non molestias perferendis reprehenderit cupiditate dicta, fuga nisi itaque?',
-      },
-      {
-        id: 1,
-        langs: ['VUE'],
-        title: 'Vue Project',
-        url: undefined,
+        id: 2,
+        langs: ['VUE', 'TS', 'CSHARP'],
+        title: 'Casio Sync',
+        url: 'https://casiosync.ctord.dev/',
         gitUrl: undefined,
-        gitFrontEndUrl: undefined,
-        gitBackEndUrl: undefined,
+        gitFrontEndUrl: 'PRIVATE',
+        gitBackEndUrl: 'https://github.com/ctorD/WorldTimeApi',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nihil atque distinctio! Delectus minima eligendi quasi excepturi cumque esse id ea non molestias perferendis reprehenderit cupiditate dicta, fuga nisi itaque?',
+          'Need to set the daylight saving time settings on your casio watch? Get the current daylight saving times settings for you casio watch.',
       },
     ];
 
